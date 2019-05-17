@@ -1,0 +1,1 @@
+[![Build Status](https://dev.azure.com/prometheansacrifice/esy-packages/_apis/build/status/prometheansacrifice.esy-gperf?branchName=master)](https://dev.azure.com/prometheansacrifice/esy-packages/_build/latest?definitionId=53&branchName=master)
