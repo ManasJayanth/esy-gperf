@@ -1,0 +1,37 @@
+{
+  "checksum": "d4c62a4fcab645f6801e8fb93925fe40",
+  "root": "esy-gperf@link-dev:./package.json",
+  "node": {
+    "esy-texinfo@github:esy-packages/esy-texinfo#4a05feafbbcc4c57d5d25899fbdab98961b9a69c@d41d8cd9": {
+      "id":
+        "esy-texinfo@github:esy-packages/esy-texinfo#4a05feafbbcc4c57d5d25899fbdab98961b9a69c@d41d8cd9",
+      "name": "esy-texinfo",
+      "version":
+        "github:esy-packages/esy-texinfo#4a05feafbbcc4c57d5d25899fbdab98961b9a69c",
+      "source": {
+        "type": "install",
+        "source": [
+          "github:esy-packages/esy-texinfo#4a05feafbbcc4c57d5d25899fbdab98961b9a69c"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    },
+    "esy-gperf@link-dev:./package.json": {
+      "id": "esy-gperf@link-dev:./package.json",
+      "name": "esy-gperf",
+      "version": "link-dev:./package.json",
+      "source": {
+        "type": "link-dev",
+        "path": ".",
+        "manifest": "package.json"
+      },
+      "overrides": [],
+      "dependencies": [
+        "esy-texinfo@github:esy-packages/esy-texinfo#4a05feafbbcc4c57d5d25899fbdab98961b9a69c@d41d8cd9"
+      ],
+      "devDependencies": []
+    }
+  }
+}
