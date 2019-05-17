@@ -64,8 +64,9 @@ SHELL = /bin/sh
 
 VPATH = $(srcdir)
 
-all : info pdf html man
-
+#all : info pdf html man
+all:
+	true
 
 info : $(srcdir)/gperf.info
 
